@@ -1,0 +1,47 @@
+body {
+    background-image: url(./images/BlueBackground-Pixlr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#rngTitleID {
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+#buttonContainerID {
+    text-align: center;
+}
+
+#rngButtonID {
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    cursor: pointer;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px 60px;
+}
+
+#rngButtonID:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+
+#rngRarityBarID {
+    display: block;
+    height: 96px;
+    margin: 100px auto 0 auto;
+    width: 384px;
+}
+
+#rngResultID {
+    color: white;
+    text-align: center;
+}
